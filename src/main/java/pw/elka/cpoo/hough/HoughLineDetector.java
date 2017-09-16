@@ -151,7 +151,7 @@ public class HoughLineDetector {
     /**
      * Given an array of [[Pixel]]s, convert it to an array of booleans of the same size.
      *
-     * Given pixel is converted fo `true` if its
+     * Given pixel is converted fo `true` if it's color is darker than given threshold value.
      */
     private boolean[][] binarize(Pixel[][] arr, int width, int height, int threshold) {
         boolean[][] result = new boolean[height][width];
